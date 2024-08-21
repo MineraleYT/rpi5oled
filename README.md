@@ -134,7 +134,7 @@ Scarica il file di attivazione dalla repository e rendilo eseguibile:
 
 ```bash
 cd ~
-curl -OL https://raw.githubusercontent.com/minerale00/PI5OLED/main/OLED_ACTIVATE
+curl -OL https://raw.githubusercontent.com/minerale00/rpi5oled/main/OLED_ACTIVATE
 sudo chmod +x ~/OLED_ACTIVATE
 ```
 
