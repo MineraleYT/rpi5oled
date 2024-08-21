@@ -159,7 +159,3 @@ Riavvia il Raspberry Pi per vedere il display OLED accendersi automaticamente.
 ```bash
 sudo reboot
 ```
-
-## Repository Correlata
-
-I file necessari per il setup, inclusi gli script, possono essere trovati nella repository [Pi5OLED](https://github.com/RUDEWORLD/Pi5OLED).
