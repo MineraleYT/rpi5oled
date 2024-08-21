@@ -102,6 +102,9 @@ i2cdetect -y 1
 
 Dovresti vedere una griglia con `3c` tra le righe, confermando che l'OLED è collegato correttamente.
 
+![i2cdetect](https://github.com/user-attachments/assets/5c7f0c5a-372b-4055-8096-2939004589b8)
+
+
 ### 8. Installazione di `OLED_Stats`
 
 Esci dall'ambiente virtuale:
