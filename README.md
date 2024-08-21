@@ -2,6 +2,8 @@
 
 Questa guida ti mostrerà come configurare un display OLED I2C 128x64px su un Raspberry Pi 5 che esegue Bookworm (64bit) senza interfaccia grafica (headless).
 
+Ho preso spunto da diversi progetti open source, tra cui [OLED_Stats](https://github.com/RUDEWORLD/OLED_Stats) e [Pi5OLED](https://github.com/RUDEWORLD/Pi5OLED) per sviluppare il mio progetto.
+
 ## Requisiti
 
 - Raspberry Pi 5 con Bookworm 64bit installato
