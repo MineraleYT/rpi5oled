@@ -133,7 +133,7 @@ Scarica il file di attivazione dalla repository e rendilo eseguibile:
 ```bash
 cd ~
 curl -OL https://raw.githubusercontent.com/minerale00/PI5OLED/main/OLED_ACTIVATE
-sudo chmod +x /home/yourusername/OLED_ACTIVATE
+sudo chmod +x ~/OLED_ACTIVATE
 ```
 
 Modifica il crontab per eseguire il file al riavvio:
@@ -145,7 +145,7 @@ crontab -e
 Se è la prima volta che apri crontab, seleziona `1` e premi `Enter`. Aggiungi la seguente riga in fondo al file, sostituendo "pi" con il tuo nome utente se necessario:
 
 ```bash
-@reboot /home/pi/OLED_ACTIVATE &
+@reboot ~/OLED_ACTIVATE &
 ```
 
 Salva e chiudi il crontab (Ctrl+X, Y, Enter).
