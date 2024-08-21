@@ -57,7 +57,7 @@ Esegui i seguenti comandi per aggiornare il sistema e installare Python e pip:
 ```bash
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get install python3-pip python3-venv git
+sudo apt-get install python3-pip python3-venv git python3-pil
 sudo apt install --upgrade python3-setuptools
 ```
 
@@ -83,7 +83,7 @@ Mentre sei nell'ambiente virtuale, esegui i seguenti comandi:
 
 ```bash
 cd ~
-pip3 install --upgrade adafruit-python-shell
+pip3 install --upgrade adafruit-python-shell adafruit_blinka adafruit-circuitpython-ssd1306
 wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
 sudo -E env PATH=$PATH python3 raspi-blinka.py
 ```
