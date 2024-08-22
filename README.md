@@ -111,7 +111,7 @@ Installa `git` e clona la repository necessaria:
 
 ```bash
 cd ~
-git clone https://github.com/RUDEWORLD/OLED_Stats.git
+git clone https://github.com/MinerAle00/OLED_Stats.git
 ```
 
 Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo script:
@@ -120,7 +120,7 @@ Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo sc
 cd ~
 source oled_env/bin/activate
 cd OLED_Stats
-python3 stats.py
+python3 stats-pi5.py
 ```
 
 A questo punto, il tuo OLED dovrebbe accendersi. Tuttavia, il display si spegnerà al riavvio poiché il programma viene eseguito in un ambiente virtuale. Per risolvere questo problema, procederemo a creare un file eseguibile.
