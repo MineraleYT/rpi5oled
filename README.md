@@ -49,7 +49,7 @@ Nel terminale, esegui:
 ```bash
 sudo raspi-config
 ```
-- Vai su "3. Interface Options" > `I4 I2C` > `Yes` > `Ok`
+- Vai su "3. Interface Options" > `I5 I2C` > `Yes` > `Ok`
 - Seleziona `Finish`
 
 ### 4. Aggiornamento del sistema e installazione di pacchetti necessari
