@@ -85,7 +85,7 @@ Mentre sei nell'ambiente virtuale, esegui i seguenti comandi:
 
 ```bash
 cd ~
-pip3 install --upgrade adafruit-python-shell adafruit_blinka adafruit-circuitpython-ssd1306
+pip3 install --upgrade adafruit-python-shell adafruit_blinka adafruit-circuitpython-ssd1306 rpi-lgpio
 wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
 sudo -E env PATH=$PATH python3 raspi-blinka.py
 ```
