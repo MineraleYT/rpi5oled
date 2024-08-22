@@ -107,12 +107,6 @@ Dovresti vedere una griglia con `3c` tra le righe, confermando che l'OLED è col
 
 ### 8. Installazione di `OLED_Stats`
 
-Esci dall'ambiente virtuale:
-
-```bash
-deactivate
-```
-
 Installa `git` e clona la repository necessaria:
 
 ```bash
