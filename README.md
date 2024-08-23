@@ -120,7 +120,7 @@ Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo sc
 cd ~
 source oled_env/bin/activate
 cd rpi5oled
-python3 stats-pi5.py
+python3 monitor.py
 ```
 
 A questo punto, il tuo OLED dovrebbe accendersi. Tuttavia, il display si spegnerà al riavvio poiché il programma viene eseguito in un ambiente virtuale. Per risolvere questo problema, procederemo a creare un file eseguibile.
