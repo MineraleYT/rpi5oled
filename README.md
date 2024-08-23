@@ -111,7 +111,7 @@ Installa `git` e clona la repository necessaria:
 
 ```bash
 cd ~
-git clone https://github.com/MinerAle00/OLED_Stats.git
+git clone https://github.com/MinerAle00/rpi5oled.git
 ```
 
 Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo script:
@@ -119,7 +119,7 @@ Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo sc
 ```bash
 cd ~
 source oled_env/bin/activate
-cd OLED_Stats
+cd rpi5oled
 python3 stats-pi5.py
 ```
 
