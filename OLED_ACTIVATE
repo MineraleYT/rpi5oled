@@ -1,4 +1,4 @@
 #!/bin/bash
 source oled_env/bin/activate
-cd OLED_Stats
+cd rpi5oled
 python3 monitor.py
