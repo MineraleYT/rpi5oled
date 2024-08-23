@@ -75,7 +75,7 @@ oled = adafruit_ssd1306.SSD1306_I2C(WIDTH, HEIGHT, i2c, addr=0x3C)
 # Create blank image for drawing
 image = Image.new("1", (oled.width, oled.height))
 draw = ImageDraw.Draw(image)
-font = ImageFont.truetype('Caramel-Regular.otf', FONTSIZE)
+font = ImageFont.truetype('PixelOperator.ttf', FONTSIZE)
 
 try:
     while True:
