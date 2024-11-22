@@ -111,7 +111,7 @@ Installa `git` e clona la repository necessaria:
 
 ```bash
 cd ~
-git clone https://github.com/MinerAle00/rpi5oled.git
+git clone https://github.com/MineraleYT/rpi5oled.git
 ```
 
 Rientra nell'ambiente virtuale, accedi alla directory del progetto e avvia lo script:
@@ -131,7 +131,7 @@ Scarica il file di attivazione dalla repository e rendilo eseguibile:
 
 ```bash
 cd ~
-curl -OL https://raw.githubusercontent.com/minerale00/rpi5oled/main/OLED_ACTIVATE
+curl -OL https://raw.githubusercontent.com/MineraleYT/rpi5oled/main/OLED_ACTIVATE
 sudo chmod +x ~/OLED_ACTIVATE
 ```
 
